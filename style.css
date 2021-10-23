@@ -1,0 +1,100 @@
+body {    
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+@media screen and (max-width:375px) { 
+    body {
+        background-color: hsl(225, 100%, 94%);
+        font-family: 'Red Hat Display', sans-serif;
+        background-image: url('images/pattern-background-mobile.svg');
+        background-repeat: no-repeat;
+    }
+}
+.main {
+    background-color: white;
+    width: 19.9375rem;
+    height: 34.6875rem;
+    text-align: center;
+    margin: 13rem auto 5rem auto;
+    border-radius: 1rem;
+}
+img.illustration-hero {
+    width: 19.9375rem;
+    height: 9.8125rem;
+    border-radius: 1rem 1rem 0 0;
+    margin: auto;
+}
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size:x-large;
+}
+p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+.form {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    margin: 1.6875rem auto 1.46875rem auto;
+    width: 17.0625rem;
+    height: 4.9375rem;
+    border-radius: 1rem;
+}
+.icon-music {
+    width: 13%;
+    margin: auto 1rem auto 1rem;
+}
+b {
+    color: black;
+}
+.plan {
+    text-align: left;
+    width: 50%;
+    margin: auto 1rem 1.2rem auto;
+    font-size: 1rem;
+    color: hsl(224, 23%, 55%);
+}
+.change {
+    font-size: small;
+    font-weight: 600;
+    color: hsl(245, 75%, 52%);
+    margin: auto 1rem auto auto;
+}
+.change:hover {
+    text-decoration: none;
+    color:  hsl(224, 23%, 55%);
+}
+button {
+    background-color: hsl(245, 75%, 52%); 
+    border-radius: 0.5rem;
+    width: 17.0625rem;
+    height: 3.0625rem;
+}
+button:hover {
+    background-color:  hsl(224, 23%, 55%);
+}
+button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size:medium;
+}
+.cancel {
+    text-decoration: none; 
+    margin: 0.75rem auto 4.75rem auto; 
+    color: hsl(224, 23%, 55%);
+    font-weight: 600;
+    font-size: medium;
+    line-height: 4.75rem;
+}
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+    
